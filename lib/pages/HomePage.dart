@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../Base/res/styles/app_styles.dart';
+
 class Homepage extends StatelessWidget {
   const Homepage ({super.key});
 
@@ -14,10 +16,12 @@ class Homepage extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  const Column(
+                   Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text("Good Morning"),
-                      Text("Booking Tickets"),
+                      Text("Good Morning", style: AppStyles.headLineStyle3),
+                      SizedBox(height: 5,),
+                      Text("Booking Tickets", style: AppStyles.headLineStyle1)
                     ],
                   ),
                   Container(

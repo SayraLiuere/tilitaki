@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:fluentui_icons/fluentui_icons.dart';
 import 'package:tilitaki/pages/HomePage.dart';
 
-import '../pages/HomePage.dart';
-
 class BottomNavBar extends StatefulWidget {
   const BottomNavBar({Key? key}) : super(key: key);
 
